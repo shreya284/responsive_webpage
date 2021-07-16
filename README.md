@@ -1,1 +1,279 @@
-# responsive_webpage
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Responsive Personal Portfolio Website- Using Basic HTML,CSS and Javascript</title>
+   <link rel="stylesheet" href="design_3.css">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet"/>
+</head>
+
+<body>
+<!--Header Section-->
+    <header>
+        <a href="#" class="brand">Shreya</a>
+        <div class="navigation">
+          <a href="#main">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+        </div>
+    </header>
+
+<!--Main Section-->
+    <section class="main" id="main">
+       <div class="content">
+         <h2>Hello, I'm<br><span>Shreya S Shetty</span></h2>
+         <div class="animated-text">
+           <h3>Web-Development Learner</h3>
+           <h3>Data Science Enthusiaist</h3>
+           <h3>Middle-level Programmer</h3>
+         </div>
+           <a href="#" class="btn">See My Work</a>
+           <div class="media-icons">
+             <a href="#"><i class="fab fa-facebook-f"></i></a>
+             <a href="#"><i class="fab fa-instagram"></i></a>
+             <a href="#"><i class="fab fa-linkedin"></i></a>
+           </div>
+       </div>
+    </section>
+
+<!--About Section-->
+ <section class="about" id="about">
+      <div class="title">
+         <h2 class="section-title">About Me</h2>
+     <div class="content">
+        <div class="column col-left">
+           <div class="img-card">
+              <img src="C:\Users\Shreya shetty\Desktop\WEB-Assgn-2\images\Photo.jpg">
+           </div>
+        </div>
+        <div class="column col-right">
+           <h2 class="content-title">Hey There! I'm Shreya S Shetty</h2>
+           <p class="paragraph-text">I'm currently pursuing 3rd year CSE(Computer Science and Engineering) in Shri Madhwa Vadiraja Institute of Technology and Management,Bantakal, Udupi.<br> My main goal is to become a Software Developer/Data Scientist.
+                                     I like to learn many new things related to technology and other more based on Programming and IT Software.</br>
+                                     I also love to sketch Anime pictures and draw beautiful Mandala sketches as my part-time hobbies for passing leisure time effectively.<br> I aspire to be hard-working,dedicated,time-manageable and profficient in my abilities to do what is needed to attain true success in life.</br></p>
+           <a href="#" class="btn">See More</a>
+        </div>
+      </div>
+    </div>
+ </section>
+
+<!--Skills Section-->
+ <section class="skills" id="skills">
+    <div class="title">
+       <h2 class="section-title">My Skills</h2>
+    </div>
+    <div class="content">
+       <div class="column col-left">
+          <h2 class="content-title">My Skills and Progress</h2>
+          <p>I've started to learn Technical Skills since 2nd year, 4th semester onwards.I've been taking new courses and learning every bit-part of them with moderate level of understanding
+             and tried to implement some of the Mini-Projects based on them.
+             <br> More than Programming, I even like to take up new skill-sets with me such as AI/Machine Learning which is the current
+             trend in today's technical era as well as Front-End Web Development as a learner.</br>Here are some of my confident languages which I've managed to practice so far to brush up my base in
+             technical aspect.</p>
+          <a href="#" class="btn">See More</a>
+       </div>
+
+<div class="column col-right">
+
+         <div class="bar">
+           <div class="info">
+             <span>HTML</span>
+             <span>82%</span>
+           </div>
+           <div class="line html"></div>
+         </div>
+
+      <div class="bar">
+           <div class="info">
+             <span>CSS</span>
+             <span>70%</span>
+           </div>
+           <div class="line css"></div>
+      </div>
+
+      <div class="bar">
+           <div class="info">
+             <span>Java</span>
+             <span>52%</span>
+           </div>
+           <div class="line java"></div>
+      </div>
+
+      
+      <div class="bar">
+           <div class="info">
+             <span>C</span>
+             <span>62%</span>
+           </div>
+           <div class="line c"></div>
+      </div>
+ 
+      
+      <div class="bar">
+           <div class="info">
+             <span>Python</span>
+             <span>54%</span>
+           </div>
+           <div class="line python"></div>
+      </div>
+
+ </div>
+</section>
+
+<!--Education Section-->
+<section class="education" id="education">
+   <div class="title">
+     <h2 class="section-title">Education</h2>
+      
+     <ul> 
+       <li>
+       <h3>Bachelor of Engineering(BE):Shri Madhwa Vadiraja Institute of Technology and Management(SMVITM),Bantakal:</h3>
+       <h4>Year of Study: 2018-2022</h4>
+       <p><h3>Total CGPA:</h3>7.8(First Class with Distinction) (As per of till 5th semester)
+          <br><h3>1st Semester:</h3> 7.75 SGPA(First Class with Distinction)</br>
+          <br><h3>2nd Semester:</h3> 8.30 SGPA(First Class with Distinction)</br>
+          <br><h3>3rd Semester:</h3> 7.08 SGPA(First Class)</br>
+          <br><h3>4th Semester:</h3> 8.21 SGPA(First Class with Distinction)</br>
+          <br><h3>5th Semester:</h3> 7.60 SGPA(First Class)</br> </p>
+       </li>
+
+       <li>
+       <h3>Pre-University Level:Vidyodaya PU College,Vadiraja-Mutt,Udupi(Grade 11th-12th,PCMCs-(Computer Science)):</h3>
+       <h4>Year of Study: 2016-2018</h4>
+       <p><h3>Score:</h3>81.5%(First Class)</p>
+       </li>
+
+       <li>
+       <h3>SSLC-Level:Christ School,Manipal(CBSE Affiliated-10th Grade)</h3>
+       <h4>Year of Study: 2015-2016</h4>
+       <p><h3>CGPA:</h3> 8.6(81.7%) (First Class with Distinction)</p>
+       </li>
+     </ul> 
+
+</div>
+</section>
+
+<!--Work Section-->
+<section class="work" id="work">
+  <div class="title">
+    <h2 class="section-title">My Work</h2>
+  </div>
+
+  <div class="content">
+    <div class="card">
+      <div class="card-img">
+        <img src="images/art_image.jpg" alt="">
+      </div>
+    </div>
+
+  <div class="card">
+      <div class="card-img">
+        <img src="images/programming_2.jpg" alt="">
+      </div>
+    </div>
+
+ <div class="card">
+      <div class="card-img">
+        <img src="images/ai_2.jpg" alt="">
+      </div>
+    </div>
+ 
+ <div class="card">
+      <div class="card-img">
+        <img src="images/music.jpg" alt="">
+      </div>
+    </div>
+
+ <div class="card">
+      <div class="card-img">
+        <img src="images/badmintion.jpg" alt="">
+      </div>
+    </div>
+
+ <div class="card">
+      <div class="card-img">
+        <img src="images/japanese.jpg" alt="">
+      </div>
+    </div>
+</div>
+</section>
+
+<!--Contact Section-->
+ <section class="contact" id="contact">
+      <div class="title reveal">
+        <h2 class="section-title">Contact Me</h2>
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="info">
+              <h3>Address</h3>
+              <span>Address, City, Country</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="info">
+              <h3>Phone</h3>
+              <span>+00 0000 000 000</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="info">
+              <h3>Email Address</h3>
+              <span>contact@email.com</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-globe"></i>
+            </div>
+            <div class="info">
+              <h3>Website</h3>
+              <span>mywebsite.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="contact-form reveal">
+            <h3>Send Message</h3>
+            <div class="input-box">
+              <input type="text" name="" value="" placeholder="Name">
+            </div>
+            <div class="input-box">
+              <input type="text" name="" value="" placeholder="Email">
+            </div>
+            <div class="input-box">
+              <textarea name="name" rows="8" cols="80" placeholder="Message"></textarea>
+            </div>
+            <div class="input-box">
+              <input type="submit" class="send-btn" name="" value="Send"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<footer class="footer">
+      <span class="footer-title">Shreya S Shetty</span>
+      <p>Copyright @2021 <a href="#">Follow me on LinkedIn</a>. All Rights Reserved.</p>
+    </footer>
+
+
+<script src="script_1.js" charset="utf-8"></script>
+
+</body>
+</html>
