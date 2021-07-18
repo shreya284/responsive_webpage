@@ -324,7 +324,27 @@ body{
     background: green;
 }
 
+.title p{
+    font-size: 1em;
+    width:80%;
+    padding:1px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+}
 
+.title ul li h3{
+     font-size: 1.2em;
+     padding:20px;
+}
+
+.title ul li h3:hover{
+     background:lightblue;
+}
+
+.title ul li h4:hover{
+     background:darkblue;
+}
 .work{
   background: #000016;
 }
@@ -606,29 +626,6 @@ body{
   .contact-form{
     padding: 35px 40px;
   }
-  
-   .menu-btn{
-    position: absolute;
-    background: url(images/menu.png)no-repeat;
-    background-size: 30px;
-    background-position: center;
-    width: 40px;
-    height: 40px;
-    right: 0;
-    margin: 0 20px;
-    cursor: pointer;
-    transition: 0.3s ease;
-  }
-
-  .menu-btn.active{
-    z-index: 999;
-    background: url(images/close.png)no-repeat;
-    background-size: 25px;
-    background-position: center;
-    transition: 0.3s ease;
-    filter: invert(1);
-  }
-
 }
 
 .scrollToTop-btn{
