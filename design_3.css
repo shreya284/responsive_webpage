@@ -18,7 +18,7 @@ section{
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(images/bg.jpg)no-repeat;
+  background: url(images/blue_image3.jpg)no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -300,28 +300,28 @@ body{
 }
 
 .skills .content .col-right .bar .html:before{
-  width: 95%;
-  background: #e45126;
+    width:82%;
+    background: orange;
 }
-
+ 
 .skills .content .col-right .bar .css:before{
-  width: 90%;
-  background: #0c73b8;
+    width:70%;
+    background: blue;
 }
 
-.skills .content .col-right .bar .javascript:before{
-  width: 80%;
-  background: #e3a324;
+.skills .content .col-right .bar .java:before{
+    width:52%;
+    background: red;
 }
 
-.skills .content .col-right .bar .jquery:before{
-  width: 80%;
-  background: #30dd6d;
+.skills .content .col-right .bar .c:before{
+    width:62%;
+    background: yellow;
 }
 
-.skills .content .col-right .bar .php:before{
-  width: 75%;
-  background: #6d7eb8;
+.skills .content .col-right .bar .python:before{
+    width:54%;
+    background: green;
 }
 
 .services .content{
