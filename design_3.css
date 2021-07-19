@@ -629,7 +629,7 @@ body{
   }
   
   .about .content .img-card{
-      position:relative;
+      position:absolute;
       width:100%;
       min-height:450px;
 }
