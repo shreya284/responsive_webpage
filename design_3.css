@@ -213,17 +213,17 @@ body{
 }
 
 .about .content .col-left .img-card{
-  position: absolute;
-  width: 80%;
-  min-height: 250px;
+  position: relative;
+  width: 100%;
+  min-height: 450px;
 }
 
 .about .content .col-left .img-card img{
   position: relative;
   top: 0;
   left: 0;
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 10px;
 }
