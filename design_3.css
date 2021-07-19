@@ -627,22 +627,6 @@ body{
   .contact-form{
     padding: 35px 40px;
   }
-  
-  .about .content .img-card{
-      position:absolute;
-      width:100%;
-      min-height:450px;
-}
-
-.about .content .img-card img{
-      position:absolute;
-      top:0;
-      left:0;
-      width:100%; 
-      height:100%;
-      object-fit:cover;
-      border-radius:10px;
- }
 }
 
 .scrollToTop-btn{
